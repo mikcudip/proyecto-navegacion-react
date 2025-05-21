@@ -35,6 +35,11 @@ const NavBarComponent = () => {
                 Contact
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/login" className="nav-link">
+                Login
+              </NavLink>
+            </li>
           </ul>
           <form className="d-flex" role="search">
             <input
